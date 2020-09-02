@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/txtNotifications"
+            android:layout_width="250dp"
+            android:layout_height="54dp"
+            android:layout_marginTop="92dp"
+            android:text="Notifications"
+            android:textSize="30dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.267"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/txtNotif1"
+            android:layout_width="322dp"
+            android:layout_height="59dp"
+            android:layout_marginTop="188dp"
+            android:text="Get 50% discount for any Spa Services"
+            android:textSize="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.438"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/txtNotif2"
+            android:layout_width="322dp"
+            android:layout_height="59dp"
+            android:layout_marginTop="32dp"
+            android:text="Get 20% discount for any Spa Services"
+            android:textSize="20dp"
+            app:layout_constraintEnd_toEndOf="@+id/txtNotif1"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/txtNotif1"
+            app:layout_constraintTop_toBottomOf="@+id/txtNotif1" />
+
+        <TextView
+            android:id="@+id/txtNotif3"
+            android:layout_width="322dp"
+            android:layout_height="59dp"
+            android:layout_marginTop="24dp"
+            android:text="Get 30% discount for any Spa Services"
+            android:textSize="20dp"
+            app:layout_constraintEnd_toEndOf="@+id/txtNotif2"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/txtNotif2"
+            app:layout_constraintTop_toBottomOf="@+id/txtNotif2" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

@@ -1,0 +1,2 @@
+rootProject.name='LPDH Wellness Gym and Spa'
+include ':app'

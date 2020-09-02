@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/txtYourSchedule"
+            android:layout_width="194dp"
+            android:layout_height="33dp"
+            android:layout_marginTop="140dp"
+            android:text="Your Schedule"
+            android:textSize="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.23"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/txtBookingID"
+            android:layout_width="143dp"
+            android:layout_height="37dp"
+            android:layout_marginStart="86dp"
+            android:layout_marginTop="252dp"
+            android:layout_marginEnd="267dp"
+            android:text="Booking ID"
+            android:textSize="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.423"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/txtService"
+            android:layout_width="140dp"
+            android:layout_height="34dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="267dp"
+            android:text="Service "
+            android:textSize="20dp"
+            app:layout_constraintEnd_toEndOf="@+id/txtBookingID"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/txtBookingID"
+            app:layout_constraintTop_toBottomOf="@+id/txtBookingID" />
+
+        <TextView
+            android:id="@+id/txtGender"
+            android:layout_width="142dp"
+            android:layout_height="32dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="267dp"
+            android:text="Gender"
+            android:textSize="20dp"
+            app:layout_constraintEnd_toEndOf="@+id/txtService"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/txtService"
+            app:layout_constraintTop_toBottomOf="@+id/txtService" />
+
+        <TextView
+            android:id="@+id/txtDateTime"
+            android:layout_width="144dp"
+            android:layout_height="39dp"
+            android:layout_marginTop="4dp"
+            android:text="Date and Time"
+            android:textSize="20dp"
+            app:layout_constraintEnd_toEndOf="@+id/txtGender"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/txtGender"
+            app:layout_constraintTop_toBottomOf="@+id/txtGender" />
+
+        <TextView
+            android:id="@+id/txtAmount"
+            android:layout_width="140dp"
+            android:layout_height="38dp"
+            android:layout_marginTop="4dp"
+            android:text="Amount"
+            android:textSize="20dp"
+            app:layout_constraintEnd_toEndOf="@+id/txtDateTime"
+            app:layout_constraintStart_toStartOf="@+id/txtDateTime"
+            app:layout_constraintTop_toBottomOf="@+id/txtDateTime" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

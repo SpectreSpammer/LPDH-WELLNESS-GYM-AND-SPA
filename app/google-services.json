@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "806357174577",
+    "firebase_url": "https://lpdh-wellness-gym-and-spa.firebaseio.com",
+    "project_id": "lpdh-wellness-gym-and-spa",
+    "storage_bucket": "lpdh-wellness-gym-and-spa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:806357174577:android:965e52cd1f3c7007d54810",
+        "android_client_info": {
+          "package_name": "com.example.lpdhwellnessgymandspa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "806357174577-l9ogrgf6s8inpaukdck6m1i6vlv5si9h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.lpdhwellnessgymandspa",
+            "certificate_hash": "2a461f3d74caa2d71aa24d1cd834936c9e7f843a"
+          }
+        },
+        {
+          "client_id": "806357174577-rnbfqqt5fi4l5jt0rh2qfjhhpavktijk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVKHDDSRZ2x2RSkDR0rUeUaUzAXD6lti8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "806357174577-rnbfqqt5fi4l5jt0rh2qfjhhpavktijk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

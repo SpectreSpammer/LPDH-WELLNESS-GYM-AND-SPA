@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    app:layout_behavior="android.support.design.widget.BottomSheetBehavior"
+    tools:context=".HomeFragment">
+
+    <FrameLayout
+        android:id="@+id/main_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="-348dp">
+
+        <EditText
+            android:id="@+id/membership"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_marginTop="310dp"
+            android:inputType="textPersonName"
+            android:text="PHP 900.00 Gym Membership fee"
+            android:textColor="#ffff" />
+
+        <EditText
+            android:id="@+id/skilled"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_marginTop="610dp"
+            android:inputType="textPersonName"
+            android:text="Our skilled therapist"
+            android:textColor="#ffff" />
+
+
+
+        <ImageView
+            android:id="@+id/wellness"
+            android:layout_marginTop="80dp"
+            android:layout_width="wrap_content"
+            android:layout_height="232dp"
+            app:srcCompat="@drawable/wellness" />
+
+        <ImageView
+            android:id="@+id/spa"
+            android:layout_marginTop="130dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/spa" />
+
+        <EditText
+            android:id="@+id/welcome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="WELCOME"
+            android:textColor="#ffff" />
+
+
+
+    </FrameLayout>
+
+
+
+</RelativeLayout>
